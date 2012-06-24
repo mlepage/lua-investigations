@@ -30,3 +30,9 @@ The question is whether it might be faster to perform an initial assignment (tha
     end
 
 The investigation reveals that indeed it is about 1/20 faster.
+
+
+Metatable Memory Usage
+======================
+
+Just checking whether setting metatables on a bunch of objects increases memory usage (over not setting metatables on those objects). The answer is no (which is good).
